@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "furnitures",
+  "info": {
+    "singularName": "furniture",
+    "pluralName": "furnitures",
+    "displayName": "Furniture",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "furniture_id": {
+      "type": "uid"
+    },
+    "furniture_name": {
+      "type": "string",
+      "maxLength": 30
+    },
+    "model": {
+      "type": "string",
+      "maxLength": 10
+    },
+    "price": {
+      "type": "integer"
+    },
+    "stock": {
+      "type": "integer",
+      "max": 3
+    },
+    "photo_url": {
+      "type": "text"
+    }
+  }
+}
